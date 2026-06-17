@@ -32,6 +32,7 @@ function initPkg_Shield() {
 }
 
 function initPkg_Shield_Enable() {
+  initPkg_Shield_DanmakuVerify();
   initPkg_Shield_RemoveRepeatedDanmaku();
   initPkg_Shield_RemoveEnter();
   initPkg_Shield_RemoveDanmakuBackground();
